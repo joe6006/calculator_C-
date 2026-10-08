@@ -16,7 +16,12 @@ int main() {
     int choice;
     std::cin >> choice;
 
+    
+
     //happens after selection
+    bool menuState = true;
+
+do{
 
 
     switch (choice)
@@ -60,14 +65,13 @@ int main() {
                 double answer = num1 / num2;
                 std::cout<<num1 << "/"<< num2 << std::endl;
                 std::cout<<answer;
-
             } 
     
     default:
         break;
     }
     
-
+}while(!menuState);
     
 
 
