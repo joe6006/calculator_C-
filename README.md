@@ -1,0 +1,1 @@
+A very simple calculator project. only the basic operators are used and only 2 inputs at a time. instead of using an vector I used an array bevause it takes up less space and has a fixed amount.
