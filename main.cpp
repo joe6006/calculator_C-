@@ -1,14 +1,15 @@
 #include <iostream>
 #include <string>
 #include <array>
+//split array in to sepearte maybe char? 
 int main() {
     //use array because the size is known and fixed and takes up less memory than a vector
     std::array<std::string, 5> operators = {
-        " + ", " - ", " * ", " / ", " % "
+        " + ", " - ", " * ", " / ", 
     };
     
     std::cout<< "please pick an operator from the following list: \n"<< std::endl;
-    for(int i =0; i < 5; i++){
+    for(int i =0; i < 4; i++){
         std::cout<< 1+i<<"."<< operators[0+i]<<std::endl;
         
     };
@@ -18,10 +19,9 @@ int main() {
 
     
 
-    //happens after selection
-    bool menuState = true;
+    //happens after select
 
-do{
+
 
 
     switch (choice)
@@ -71,7 +71,7 @@ do{
         break;
     }
     
-}while(!menuState);
+
     
 
 
